@@ -1,6 +1,6 @@
-let rojo = Math.random() * 255;
-let verde = Math.random() * 255;
-let azul = Math.random() * 255;
+let rojo = Math.random() * 256;
+let verde = Math.random() * 256;
+let azul = Math.random() * 256;
 
 const colores = (r, g, b) => {
   r = Math.trunc(rojo);
